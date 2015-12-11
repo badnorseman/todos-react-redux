@@ -1,4 +1,4 @@
-const visibilityFilter = (
+export const visibilityFilter = (
   state = "SHOW_ALL",
   action
 ) => {
@@ -9,5 +9,3 @@ const visibilityFilter = (
       return state;
   }
 };
-
-export default visibilityFilter;
