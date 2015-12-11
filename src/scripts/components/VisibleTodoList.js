@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { toggleTodo } from "../actions";
+import TodoList from "./TodoList";
 
 const getVisibleTodos = (
   todos,
@@ -20,7 +21,7 @@ const getVisibleTodos = (
   }
 }
 
-const mapStateToTodoListProps = (
+const mapStateToProps = (
   state
 ) => {
   return {
@@ -30,7 +31,8 @@ const mapStateToTodoListProps = (
     )
   };
 };
-const mapDispatchToTodoListProps = (
+
+const mapDispatchToProps = (
   dispatch
 ) => {
   return {
@@ -39,9 +41,10 @@ const mapDispatchToTodoListProps = (
     }
   };
 };
+
 const VisibleTodoList = connect(
-  mapStateToTodoListProps,
-  mapDispatchToTodoListProps
+  mapStateToProps,
+  mapDispatchToProps
 )(TodoList);
 
 export default VisibleTodoList;
