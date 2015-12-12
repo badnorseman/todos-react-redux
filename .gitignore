@@ -4,10 +4,6 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile ~/.gitignore_global
 
-# Ignore build files.
-#/dist
-.buildpacks
-
 # Ignore test files.
 /spec
 webpack_spec.config.js
