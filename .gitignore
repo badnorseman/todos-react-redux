@@ -6,6 +6,7 @@
 
 # Ignore build files.
 #/dist
+.buildpacks
 
 # Ignore test files.
 /spec

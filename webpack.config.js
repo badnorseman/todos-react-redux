@@ -26,12 +26,6 @@ module.exports = {
       loader: "babel",
       exclude: /node_modules/,
       include: path.join(__dirname, "/src/scripts")
-    }, {
-      test: /\.css$/,
-      loader: "style-loader!css-loader"
-    }, {
-      test: /\.(jpg|png)$/,
-      loader: "url-loader?limit=8192"
     }]
   }
 };
