@@ -11,4 +11,4 @@ const TodoApp = () => (
   </div>
 );
 
-export default TodoApp;
+export default TodoApp

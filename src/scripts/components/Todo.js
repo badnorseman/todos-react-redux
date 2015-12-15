@@ -18,4 +18,4 @@ const Todo = ({
   </li>
 );
 
-export default Todo;
+export default Todo
