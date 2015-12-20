@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { toggleTodo } from "../actions";
-import TodoList from "./TodoList";
+import TodoList from "../components/TodoList";
 
 const getVisibleTodos = (
   todos,
