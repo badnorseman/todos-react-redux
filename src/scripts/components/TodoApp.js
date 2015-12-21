@@ -1,5 +1,5 @@
 import React from "react";
-import AddTodo from "../containers/AddTodo";
+import AddTodo from "./AddTodo";
 import Footer from "./Footer";
 import VisibleTodoList from "../containers/VisibleTodoList";
 
